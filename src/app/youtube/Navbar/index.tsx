@@ -19,7 +19,7 @@ export default function NavBar() {
       <div className="px-6 py-3 md:flex md:justify-between md:items-center">
         <div className="flex justify-between items-center">
           <div className="flex items-center gap-7">
-            <label for="my-drawer">
+            <label htmlFor="my-drawer">
               <FaBars
                 className="text-black cursor-pointer drawer-button"
                 size={18}

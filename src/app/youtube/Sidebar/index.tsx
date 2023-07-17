@@ -6,10 +6,10 @@ export default function Sidebar() {
       <input id="my-drawer" type="checkbox" className="drawer-toggle" />
 
       <div className="drawer-side">
-        <label for="my-drawer" className="drawer-overlay"></label>
+        <label htmlFor="my-drawer" className="drawer-overlay"></label>
         <div className="menu p-6 overflow-y-auto w-80 bg-base-100 text-base-content h-screen">
           <div className="flex items-center gap-7">
-            <label for="my-drawer">
+            <label htmlFor="my-drawer">
               <FaBars
                 className="text-black cursor-pointer drawer-button"
                 size={18}
