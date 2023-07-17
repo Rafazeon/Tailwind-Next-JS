@@ -23,6 +23,10 @@
     color: black;
     background-color: white;
   }
+
+  svg {
+    color: black;
+  }
 }
 
 body {

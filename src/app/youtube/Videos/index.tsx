@@ -14,7 +14,13 @@ export default function Videos({ handleData }: VideosProps) {
           <div
             key={index}
             className="bg-white rounded-lg p-2 flex gap-3 w-80 h-32"
-            onClick={() => handleData(item)}
+            onClick={() => {
+              window.scrollTo({
+                top: 0,
+                behavior: "smooth",
+              });
+              handleData(item);
+            }}
           >
             <div className="relative group">
               <img

@@ -33,7 +33,7 @@ export default function Video({ title, likes, youtubeURL }: DataProps) {
             </div>
 
             <div>
-              <button className="border border-gray-500 rounded-full px-2 py-2 bg-black text-white">
+              <button className="border border-gray-500 rounded-full px-2 py-2 bg-black text-white text-sm">
                 Inscrever-se
               </button>
             </div>

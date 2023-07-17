@@ -2,7 +2,7 @@ export interface DataProps {
   title: string;
   likes: string;
   info: string;
-  comments: number;
+  comments: string;
   youtubeChannel: string;
   youtubeThumb: string;
   youtubeURL: string;
