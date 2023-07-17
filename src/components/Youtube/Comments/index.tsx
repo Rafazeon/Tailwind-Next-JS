@@ -1,6 +1,6 @@
 import { AiOutlineUnorderedList } from "react-icons/ai";
 import { BiLike, BiDislike, BiMessageRoundedDetail } from "react-icons/bi";
-import { DataProps } from "../interfaces";
+import { DataProps } from "../../../app/youtube/interfaces";
 
 export default function Comments({ comments }: DataProps) {
   return (

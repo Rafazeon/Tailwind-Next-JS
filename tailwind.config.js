@@ -25,7 +25,7 @@ module.exports = {
       },
 
       backgroundImage: {
-        "csgo-theme": "url('/img/csgo/banner.png')",
+        "portfolio-theme": "url('/img/portfolio/banner.png')",
         "spotify-theme": "url('/img/spotify/bursts.svg')",
         "spotify-theme-mobile": "url('/img/spotify/bursts-mobile.svg')",
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

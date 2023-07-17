@@ -2,7 +2,7 @@ import { BiLike, BiDislike } from "react-icons/bi";
 import { PiShareFatLight } from "react-icons/pi";
 import { LiaDownloadSolid } from "react-icons/lia";
 import { FiScissors, FiMoreHorizontal } from "react-icons/fi";
-import { DataProps } from "../interfaces";
+import { DataProps } from "../../../app/youtube/interfaces";
 
 export default function Video({ title, likes, youtubeURL }: DataProps) {
   return (

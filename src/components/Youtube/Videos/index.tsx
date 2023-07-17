@@ -1,5 +1,5 @@
-import { DataProps } from "../interfaces";
-import { videos } from "../../actions/videos";
+import { DataProps } from "../../../app/youtube/interfaces";
+import { videos } from "../../../app/actions/videos";
 
 interface VideosProps {
   handleData: (value: DataProps) => void;

@@ -1,11 +1,7 @@
 "use client";
 import { useState } from "react";
 
-import {
-  AiOutlineClose,
-  AiOutlineVideoCamera,
-  AiOutlineBell,
-} from "react-icons/ai";
+import { AiOutlineClose } from "react-icons/ai";
 import { FaBars } from "react-icons/fa";
 import { HiMicrophone } from "react-icons/hi";
 import Link from "next/link";

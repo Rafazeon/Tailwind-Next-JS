@@ -1,4 +1,4 @@
-import { DataProps } from "../interfaces";
+import { DataProps } from "../../../app/youtube/interfaces";
 
 export default function Info({ info }: DataProps) {
   return (
