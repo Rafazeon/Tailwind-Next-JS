@@ -10,6 +10,7 @@ import { FaBars } from "react-icons/fa";
 import { HiMicrophone } from "react-icons/hi";
 import Link from "next/link";
 import Sidebar from "../Sidebar";
+import Icons from "../Icons";
 
 export default function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -30,6 +31,10 @@ export default function NavBar() {
                 <img src="/img/youtube/logo.svg" width={90} height={90} />
               </span>
             </Link>
+
+            <div className="max-md:flex max-md:items-center md:hidden">
+              <Icons />
+            </div>
           </div>
 
           <div className="flex md:hidden">
@@ -92,31 +97,8 @@ export default function NavBar() {
           </button>
         </div>
 
-        <div className={`${isOpen ? "" : "hidden"} md:flex md:items-center`}>
-          <div className="flex flex-col md:flex-row md:py-0">
-            <a
-              href="#"
-              className="px-2.5 py-2 text-black transition-colors duration-300 transform rounded-lg dark:text-gray-200 hover:bg-gray-200 dark:hover:bg-gray-700 md:mx-2"
-            >
-              <AiOutlineVideoCamera className="max-md:hidden" size={22} />
-            </a>
-            <a
-              href="#"
-              className="px-2.5 py-2 text-black transition-colors duration-300 transform rounded-lg dark:text-gray-200 hover:bg-gray-200 dark:hover:bg-gray-700 md:mx-2"
-            >
-              <AiOutlineBell size={22} />
-            </a>
-            <a
-              href="#"
-              className="px-2.5 py-2 text-black transition-colors duration-300 transform rounded-lg dark:text-gray-200 hover:bg-gray-200 dark:hover:bg-gray-700 md:mx-2"
-            >
-              <img
-                className="inline-block h-6 w-6 rounded-full"
-                src="https://gray-week-prod.cdn.arcpublishing.com/resizer/TE7IhQt_Q825GVgDDtkXGb75mkw=/1200x675/smart/filters:quality(85)/cloudfront-us-east-1.images.arcpublishing.com/gray/W5DRRSQN4RETPH7TKOZRHBHCRA.jpg"
-                alt="Avatar"
-              />
-            </a>
-          </div>
+        <div className="md:flex md:items-center hidden">
+          <Icons />
         </div>
       </div>
 

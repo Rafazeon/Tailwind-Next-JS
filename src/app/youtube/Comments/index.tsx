@@ -1,11 +1,12 @@
 import { AiOutlineUnorderedList } from "react-icons/ai";
 import { BiLike, BiDislike, BiMessageRoundedDetail } from "react-icons/bi";
+import { DataProps } from "../interfaces";
 
-export default function Comments() {
+export default function Comments({ comments }: DataProps) {
   return (
     <>
       <section className="py-4 flex gap-4 p-2">
-        <p>28.755 comentários</p>
+        <p>{comments} comentários</p>
         <div className="flex items-center gap-2">
           <AiOutlineUnorderedList size={20} />
           <p>Ordenar por</p>
@@ -26,7 +27,7 @@ export default function Comments() {
                 <h3 className="text-lg font-semibold">Lekin da Silva</h3>
                 <p className="text-gray-500 text-sm">1 hour ago</p>
               </div>
-              <p>Gosto de mulheres diferenciadas com potencial forte</p>
+              <p>Muito boa a música!</p>
               <div className="flex space-x-4">
                 <button className="flex items-center text-gray-500 text-sm">
                   <BiLike size={20} className="mr-2" /> 10
