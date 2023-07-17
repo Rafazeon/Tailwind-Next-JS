@@ -10,7 +10,7 @@ export default function Video({ title, likes, youtubeURL }: DataProps) {
       <iframe
         src={`https://www.youtube.com/embed/${youtubeURL}`}
         title="YouTube video player"
-        className="w-full h-full"
+        className="w-full md:h-full max-md:h-80"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       ></iframe>
 
