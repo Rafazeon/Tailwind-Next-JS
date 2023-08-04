@@ -1,6 +1,5 @@
-import YoutubeComponent from "../../components/Youtube"
+import YoutubeComponent from "../../components/Youtube";
 
 export default function Youtube() {
-  return <YoutubeComponent />
-  
+  return <YoutubeComponent />;
 }

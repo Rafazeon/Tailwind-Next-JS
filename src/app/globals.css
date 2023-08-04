@@ -38,3 +38,16 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+#scrollChat::-webkit-scrollbar {
+  width: 5px;
+}
+
+#scrollChat::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+#scrollChat::-webkit-scrollbar-thumb {
+  background-color: #ffffff99;
+  outline: #ffffff99;
+}

@@ -4,7 +4,7 @@ export default function Works() {
   return (
     <>
       <Header />
-      <div className="flex p-4 md:flex-row max-md:space-y-4 gap-4 flex-col md:justify-center md:items-center h-[100%] bg-gray-300 max-md:pt-10">
+      <div className="flex p-4 md:flex-row max-md:space-y-4 gap-4 flex-col md:justify-center md:items-center h-[100%] md:h-[100vh] bg-gray-300 max-md:pt-10">
         <div className="relative flex flex-col items-center rounded-[20px] w-[400px] max-md:w-full mx-auto p-4 bg-white bg-clip-border shadow-3xl shadow-shadow-500 dark:!bg-navy-800 dark:text-white dark:!shadow-none">
           <div className="relative flex h-36 w-full justify-center rounded-xl bg-cover">
             <img

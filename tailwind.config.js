@@ -18,10 +18,22 @@ module.exports = {
         "100": "600px"
       },
 
+      width: {
+        '476': '476.15px'
+      },
+
+      height: {
+        '776': '776px',
+        '780': '780px'
+      },
+
       colors: {
+        google: "#3c4043",
+        graygoogle: "#f8f9fa",
         hoverspt: "#18D760",
         "purple-main": "#2d46B9",
         "green-main": "#1ED760",
+        "whatsapp-gray": "#f0f2f5"
       },
 
       backgroundImage: {

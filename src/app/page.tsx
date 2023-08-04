@@ -16,6 +16,9 @@ export default function Home() {
       <Link href="/youtube">
         <button className="btn btn-secondary text-white">Youtube Clone</button>{" "}
       </Link>
+      <Link href="/whatsapp">
+        <button className="btn bg-green-500 text-white">Whatsapp Clone</button>{" "}
+      </Link>
       <Link href="/portfolio">
         <button className="btn btn-accent text-white">Meu Portfólio</button>{" "}
       </Link>
