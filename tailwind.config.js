@@ -7,24 +7,20 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    // screens: {
-    //   'tablet': '640px',
-    //   'cel': {'max': '400px'}
-    // },
     extend: {
       spacing: {
         14: "3.5rem",
         "125px": "125px",
-        "100": "600px"
+        100: "600px",
       },
 
       width: {
-        '476': '476.15px'
+        476: "476.15px",
       },
 
       height: {
-        '776': '776px',
-        '780': '780px'
+        776: "776px",
+        780: "780px",
       },
 
       colors: {
@@ -33,7 +29,7 @@ module.exports = {
         hoverspt: "#18D760",
         "purple-main": "#2d46B9",
         "green-main": "#1ED760",
-        "whatsapp-gray": "#f0f2f5"
+        "whatsapp-gray": "#f0f2f5",
       },
 
       backgroundImage: {
@@ -44,7 +40,7 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
-      
+
       backgroundSize: {
         "175%": "175%",
         "195%": "195%",
@@ -60,7 +56,5 @@ module.exports = {
       },
     },
   },
-  plugins: [
-    require('daisyui'),
-  ],
+  plugins: [require("daisyui")],
 };

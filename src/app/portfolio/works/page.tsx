@@ -1,6 +1,12 @@
+"use client"
 import Header from "@/components/Portfolio/Header";
+import { NavContext } from "@/contexts/NavContext";
+import Link from "next/link";
+import { useContext } from "react";
 
 export default function Works() {
+  const { handleSelected } = useContext(NavContext)
+
   return (
     <>
       <Header />
@@ -17,13 +23,12 @@ export default function Works() {
             <h4 className="text-xl font-bold text-navy-700 dark:text-white">
               Spotify Clone
             </h4>
-            <a
-              target="_blank"
-              href="https://tailwind-projects-beige.vercel.app/spotify"
-              className="text-blue-500"
+            <p
+              onClick={() => handleSelected(1, "spotify")}
+              className="text-blue-500 cursor-pointer"
             >
               Link
-            </a>
+            </p>
           </div>
         </div>
 
@@ -38,13 +43,12 @@ export default function Works() {
             <h4 className="text-xl font-bold text-navy-700 dark:text-white">
               Youtube Clone
             </h4>
-            <a
-              target="_blank"
-              href="https://tailwind-projects-beige.vercel.app/youtube"
-              className="text-blue-500"
+            <p
+              onClick={() => handleSelected(2, "youtube")}
+              className="text-blue-500 cursor-pointer"
             >
               Link
-            </a>
+            </p>
           </div>
         </div>
 
@@ -62,7 +66,7 @@ export default function Works() {
             <a
               target="_blank"
               href="https://ebookmaker.ai"
-              className="text-blue-500"
+              className="text-blue-500 cursor-pointer"
             >
               Link
             </a>

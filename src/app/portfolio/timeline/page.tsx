@@ -96,7 +96,7 @@ export default function Timeline() {
 
             <ul>
               <li>
-                MongoDB, Javascript, NodeJS, Git, HTML e CSS, Mysql, NextJS,
+                MongoDB, Javascript, Typescript, NodeJS, Git, HTML e CSS, Mysql, NextJS,
                 NestJS, ReactJS, ElectronJS
               </li>
             </ul>

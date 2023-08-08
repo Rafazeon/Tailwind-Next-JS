@@ -1,8 +1,9 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import Header from "@/components/Header";
+import { NavProvider } from "@/contexts/NavContext";
 
 import { Roboto } from "next/font/google";
+import Tab from "@/components/Tab";
 
 const roboto = Roboto({ weight: "400", subsets: ["latin"] });
 
@@ -22,9 +23,12 @@ export default function RootLayout({
         href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.css"
         rel="stylesheet"
       />
-      <body style={{ background: "#fff"}} className={roboto.className}>
+      <body style={{ background: "#fff" }} className={roboto.className}>
         {/* <Header /> */}
-        <main>{children}</main>
+        <NavProvider>
+          <Tab />
+          <main>{children}</main>
+        </NavProvider>
       </body>
     </html>
   );

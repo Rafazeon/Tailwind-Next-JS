@@ -8,7 +8,7 @@ import { FaRegSmile } from "react-icons/fa";
 const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
 
 export default function Whatsapp() {
-  const innerHeight = window.innerHeight
+  const innerHeight: any = typeof window !== "undefined" && window.innerHeight
 
   return (
     <div className="bg-gray-100 h-screen">
@@ -17,7 +17,7 @@ export default function Whatsapp() {
           <nav className="flex flex-row items-center justify-between h-14 border-r border-gray-300">
             <img
               src="https://tecdn.b-cdn.net/img/new/avatars/2.webp"
-              class="w-10 h-10 rounded-full ml-2"
+              className="w-10 h-10 rounded-full ml-2"
               alt="Avatar"
             />
 
@@ -64,7 +64,7 @@ export default function Whatsapp() {
                 <div className="flex">
                   <img
                     src="https://tecdn.b-cdn.net/img/new/avatars/2.webp"
-                    class="w-10 h-10 rounded-full ml-2"
+                    className="w-10 h-10 rounded-full ml-2"
                     alt="Avatar"
                   />
                   <div className="pl-3 ">
@@ -86,7 +86,7 @@ export default function Whatsapp() {
             <div className="flex items-center space-x-3">
               <img
                 src="https://tecdn.b-cdn.net/img/new/avatars/2.webp"
-                class="w-10 h-10 rounded-full ml-2"
+                className="w-10 h-10 rounded-full ml-2"
                 alt="Avatar"
               />
               <p>Tato</p>
